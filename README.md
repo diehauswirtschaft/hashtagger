@@ -1,10 +1,11 @@
+<img width="460" alt="die HausWirtschaft Logo" src="https://tools.diehauswirtschaft.at/public-static-files/logos/dhw-signet-logotype.png">
+
 # hashtagger
 
 This is a small tool to generate a set of hashtags for Social Media accounts.
 We use it in our cooperative die HausWirtschaft for a faster Instagram
 editing.
 
-<img width="350" alt="die HausWirtschaft Logo" src="https://tools.diehauswirtschaft.at/public-static-files/logos/dhw-signet-logotype.png">
 
 This project has been developed in the scope of [OPENhauswirtschaft][1]
 for all Social Media activities around die HausWirtschaft.
