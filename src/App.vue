@@ -1,28 +1,48 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <v-app>
+        <v-toolbar app>
+            <v-toolbar-title class="headline">
+                <img src="./assets/dhw-signet.svg" class="dhw-logo" alt="die HausWirtschaft">
+                <span>Hash</span>
+                <span class="font-weight-light">Tagger</span>
+            </v-toolbar-title>
+        </v-toolbar>
+
+        <v-content class="pb-4">
+            <HashTagChooser/>
+        </v-content>
+    </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import HashTagChooser from './components/HashTagChooser'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            HashTagChooser
+        },
+        data() {
+            return {
+                //
+            }
+        }
+    }
 </script>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style>
+    .headline {
+        display: flex;
+    }
+
+    .headline .dhw-logo {
+        width: auto;
+        height: 32px;
+        margin-right: 2px;
+    }
+
+    .theme--light.v-toolbar {
+        background: #003C71;
+        color: #D7EAE2;
+    }
 </style>
