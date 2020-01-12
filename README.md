@@ -6,6 +6,7 @@ This is a small tool to generate a set of hashtags for Social Media accounts.
 We use it in our cooperative die HausWirtschaft for a faster Instagram
 editing.
 
+<hr>
 
 This project has been developed in the scope of [OPENhauswirtschaft][1]
 for all Social Media activities around die HausWirtschaft.
